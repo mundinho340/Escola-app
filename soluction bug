@@ -1,0 +1,13 @@
+
+public class Teste {
+	public static void main(String args []) {
+		String frase = "Engenharia Mecanica e de Transportes -> Projecto Final de Curso";
+		String [] palavras = frase.split(" ");
+//		for(String palavra : palavras) {
+//			System.out.println(palavra);
+//		}
+		String estado = palavras[6]+" "+ palavras[7] + " " +palavras[8]+ " "+palavras[9];
+		System.out.println(estado);
+		
+	}
+}
